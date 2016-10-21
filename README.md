@@ -6,8 +6,8 @@
 ### `Object.prototype.toString()`
 | argument | IE8 | IE9 | IE10 | Edge | Firefox | Chrome | Safari |
 | -------- | --- | --- | ---- | ---- | ------- | ------ | ------ |
-| null | **[object Object]** | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | 
-| undefined | **[object Object]** | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | 
+| null |**_[object Object]_** | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | 
+| undefined | **_[object Object]_** | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | 
 | [] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | 
 | new Array() | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | 
 | {} | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | 
@@ -20,8 +20,8 @@
 | function(){} | [object Function] | [object Function] | [object Function] | [object Function] | [object Function] | [object Function] | [object Function] | [object Function] | 
 | /[a-z]/ | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | 
 | new Date() | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | 
-| document.getElementById('result') | **[object Object]** | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | 
-| document.getElementsByTagName('div') | **[object Object]** | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object NodeList] | 
+| document.getElementById('result') | **_[object Object]_** | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | 
+| document.getElementsByTagName('div') | **_[object Object]_** | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object NodeList] | 
 | arguments | [object Object] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | 
 | new Test() | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | 
 | new Test() | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] |  [object Object] |
