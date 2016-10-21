@@ -4,8 +4,8 @@
 `typeof` and `Object.prototype.toString()` are two common tools used for determining a variable type. This document summarizes the behaviours of these two functions when given different variable types in different browsers.
 
 ### `Object.prototype.toString()`
-| argument | IE8 | IE9 | IE10 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | null |**_[object Object]_** | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | 
 | undefined | **_[object Object]_** | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | 
 | [] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | 
@@ -27,8 +27,8 @@
 | new Test() | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] |  [object Object] |
 
 ### `typeof`
-| argument | IE8 | IE9 | IE10 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | null | object | object | object | object | object | object | object |object |
 | undefined | undefined | undefined | undefined | undefined | undefined | undefined | undefined |undefined |
 | [] | object | object | object | object | object | object | object |object |
