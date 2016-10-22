@@ -97,12 +97,22 @@
 | new (Test = function() {}) | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | | **_Test_** | | **_Test_** | 
 | new (function Test() {}) | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Test | Test | Test | Test | 
   
-Remarks:
-- IE8: Tested on Internet Explorer Version 8.0.7601.17514 running on Windows 7
-- IE9: Tested on Internet Explorer Version 9.0.8112.16421 running on Windows 7
-- IE10: Tested on Internet Explorer Version 10.0.9200.17148 running on Windows 7
-- IE11: Tested on Internet Explorer Version 11.321.14393.0 running on Windows 10
-- Edge: Tested on Microsoft Edge 38.14393.0.0 running on Windows 10
-- Chrome: Tested on Chrome Version 53.0.2785.143 m (64-bit) running on Windows 10
-- Firefox: Tested on Firefox Version 48.0.2 running on Windows 7
-- Safari: Tested on Safari Version 10.0 (11602.1.50.0.10) running on Mac OS X El Capitan
+## Remarks:
+* IE8: Tested on Internet Explorer Version 8.0.7601.17514 running on Windows 7
+* IE9: Tested on Internet Explorer Version 9.0.8112.16421 running on Windows 7
+* IE10: Tested on Internet Explorer Version 10.0.9200.17148 running on Windows 7
+* IE11: Tested on Internet Explorer Version 11.321.14393.0 running on Windows 10
+* Edge: Tested on Microsoft Edge 38.14393.0.0 running on Windows 10
+* Chrome: Tested on Chrome Version 53.0.2785.143 m (64-bit) running on Windows 10
+* Firefox: Tested on Firefox Version 48.0.2 running on Windows 7
+* Safari: Tested on Safari Version 10.0 (11602.1.50.0.10) running on Mac OS X El Capitan
+
+## Found a mistake?
+If you found a mistake in the documentation, please feel free to address it in the Issues section.
+
+## Disclaimer
+This documentation is written in the hope that it can give a quick overview of the behaviours, but there is no gurantee that this documentation is free of mistakes. If you are using its result in your production project, make sure you test your project well.
+
+## License
+Copyright (c) Yu H.  
+Published under The MIT License (MIT)
