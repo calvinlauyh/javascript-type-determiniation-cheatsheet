@@ -1,9 +1,15 @@
-## JavaScript Type Deterministaion Methods Cheat Sheet
+# JavaScript Type Determination Methods Cheat Sheet
 
-### Background
+## Background
 `typeof`, `Object.prototype.toString()`, `.constructor.toString()` and `.contstruct.name` property are three common ways in determining a variable type. This document summarizes the behaviours of these tools when given different variable types in different browsers.
 
-### `Object.prototype.toString()`
+## Quick Navigation
+* [`Object.prototype.toString`](#objectprototypetostring)
+* [`typeof`](#typeof)
+* [`.constructor.toString()`](#constructortostring)
+* [`.constructor.name`](#constructorname-property)
+  
+## `Object.prototype.toString()`
 | argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
 | -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | null |**_[object Object]_** | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | 
@@ -25,8 +31,8 @@
 | arguments | [object Object] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | 
 | new (Test = function() {}) | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | 
 | new (function Test() {}) | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] |  [object Object] |
-
-### `typeof`
+  
+## `typeof`
 | argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
 | -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | null | object | object | object | object | object | object | object |object |
@@ -48,8 +54,8 @@
 | arguments | object | object | object | object | object | object | object |object |
 | new (Test = function() {}) | object | object | object | object | object | object | object |object |
 | new (function Test() {}) | object | object | object | object | object | object | object | object |
-
-### `.constructor.toString()`
+  
+## `.constructor.toString()`
 | argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
 | -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | []                                    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }            | function Array() { [native code] }            | function Array() { [native code] } | 
@@ -69,9 +75,8 @@
 | arguments                             | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }           | function Object() { [native code] }           | function Object() { [native code] }           | 
 | new Test()                            | function() {}                         | function() {}                         | function() {}                         | function() {}                         | function() {}                         | function () {}                                | function () {}                                | function () {}                                | 
 | new Test()                            | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                            | function Test() {}                            | function Test() {}                            | 
-
-
-### `.constructor.name` property
+  
+## `.constructor.name` property
 | argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
 | -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
 | [] | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Array | Array | Array | Array | 
@@ -91,7 +96,7 @@
 | arguments | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Object | Object | Object | Object | 
 | new (Test = function() {}) | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | | **_Test_** | | **_Test_** | 
 | new (function Test() {}) | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Test | Test | Test | Test | 
-
+  
 Remarks:
 - IE8: Tested on Internet Explorer Version 8.0.7601.17514 running on Windows 7
 - IE9: Tested on Internet Explorer Version 9.0.8112.16421 running on Windows 7
