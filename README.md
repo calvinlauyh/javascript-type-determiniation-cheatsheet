@@ -1,7 +1,7 @@
 ## JavaScript Type Deterministaion Methods Cheat Sheet
 
 ### Background
-`typeof`, `Object.prototype.toString()` and `.contstruct.name` property are three common ways in determining a variable type. This document summarizes the behaviours of these tools when given different variable types in different browsers.
+`typeof`, `Object.prototype.toString()`, `.constructor.toString()` and `.contstruct.name` property are three common ways in determining a variable type. This document summarizes the behaviours of these tools when given different variable types in different browsers.
 
 ### `Object.prototype.toString()`
 | argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
