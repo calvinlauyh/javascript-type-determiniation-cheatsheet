@@ -10,8 +10,8 @@
 * [`.constructor.name`](#constructorname-property)
   
 ## `Object.prototype.toString()`
-| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Chrome | Firefox | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------ | ------- | ------ |
 | null |**_[object Object]_** | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | [object Null] | 
 | undefined | **_[object Object]_** | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | [object Undefined] | 
 | [] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | [object Array] | 
@@ -33,8 +33,8 @@
 | new (function Test() {}) | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] |  [object Object] |
   
 ## `typeof`
-| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Chrome | Firefox | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------ | ------- | ------ |
 | null | object | object | object | object | object | object | object |object |
 | undefined | undefined | undefined | undefined | undefined | undefined | undefined | undefined |undefined |
 | [] | object | object | object | object | object | object | object |object |
@@ -56,8 +56,8 @@
 | new (function Test() {}) | object | object | object | object | object | object | object | object |
   
 ## `.constructor.toString()`
-| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Chrome | Firefox | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------ | ------- | ------ |
 | []                                    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }            | function Array() { [native code] }            | function Array() { [native code] } | 
 | new Array()                           | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }    | function Array() { [native code] }            | function Array() { [native code] }            | function Array() { [native code] }            | 
 | {}                                    | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }   | function Object() { [native code] }           | function Object() { [native code] }           | function Object() { [native code] }           | 
@@ -77,8 +77,8 @@
 | new Test()                            | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                    | function Test() {}                            | function Test() {}                            | function Test() {}                            | 
   
 ## `.constructor.name` property
-| argument | IE8 | IE9 | IE10 | IE11 | Edge | Firefox | Chrome | Safari |
-| -------- | --- | --- | ---- | ---- | ---- | ------- | ------ | ------ |
+| argument | IE8 | IE9 | IE10 | IE11 | Edge | Chrome | Firefox | Safari |
+| -------- | --- | --- | ---- | ---- | ---- | ------ | ------- | ------ |
 | [] | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Array | Array | Array | Array | 
 | new Array() | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Array | Array | Array | Array | 
 | {} | **_undefined_** | **_undefined_** | **_undefined_** | **_undefined_** | Object | Object | Object | Object | 
