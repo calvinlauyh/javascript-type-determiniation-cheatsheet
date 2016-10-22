@@ -27,7 +27,7 @@
 | /[a-z]/ | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | [object RegExp] | 
 | new Date() | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | [object Date] | 
 | document.getElementById('result') | **_[object Object]_** | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | [object HTMLDivElement] | 
-| document.getElementsByTagName('div') | **_[object Object]_** | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | **_[object NodeList]_** | 
+| document.getElementsByTagName('div') | **_[object Object]_** | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | [object HTMLCollection] | 
 | arguments | [object Object] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | [object Arguments] | 
 | new (Test = function() {}) | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | 
 | new (function Test() {}) | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] | [object Object] |  [object Object] |
